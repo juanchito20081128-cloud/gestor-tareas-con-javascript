@@ -5,7 +5,7 @@ const btnAgregar = document.getElementById("btnAgregar");
 const inputActividad = document.getElementById("actividadInput");
 const listaActividades = document.getElementById("listaActividades");
 const mensajeVacio = document.getElementById("mensajeVacio");
-
+document.getElementById("year").textContent=new Date().getFullYear();
 const totalActividades = document.getElementById("totalActividades");
 const actividadesRealizadas = document.getElementById("actividadesRealizadas");
 const actividadesPendientes = document.getElementById("actividadesPendientes");
